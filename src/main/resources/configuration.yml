@@ -1,0 +1,203 @@
+redis:
+  host: "198.50.209.162"
+  port: 6379
+  auth: false
+  password: ""
+
+inventory:
+  title: "&eCoinFlips"
+  size: 45
+  overlay: true
+  overlay-item: "GRAY_STAINED_GLASS_PANE"
+  item:
+    item: "BOOK"
+    name: "&7{creator}'s &eCoinFlip"
+    lore:
+      - "&f&m------------------------------"
+      - "&eCreator&7: {creator}"
+      - "&eAmount&7: {amount}"
+      - "&f&m------------------------------"
+
+confirm-inventory:
+  title: "&aConfirm"
+  size: 45
+  overlay: true
+  overlay-item: "GRAY_STAINED_GLASS_PANE"
+  items:
+    1:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 10
+      action: "confirm"
+    2:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 11
+      action: "confirm"
+    3:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 12
+      action: "confirm"
+    4:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 19
+      action: "confirm"
+    5:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 20
+      action: "confirm"
+    6:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 21
+      action: "confirm"
+    7:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 28
+      action: "confirm"
+    8:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 29
+      action: "confirm"
+    9:
+      item: "LIME_WOOL"
+      name: "&a&lConfirm Entrance"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to coinfirm entrance"
+        - "&7&m-----------------------------------------"
+      slot: 30
+      action: "confirm"
+    10:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 14
+      action: "cancel"
+    11:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 15
+      action: "cancel"
+    12:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 16
+      action: "cancel"
+    13:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 23
+      action: "cancel"
+    14:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 24
+      action: "cancel"
+    15:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 25
+      action: "cancel"
+    16:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 32
+      action: "cancel"
+    17:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 33
+      action: "cancel"
+    18:
+      item: "RED_WOOL"
+      name: "&c&lCancel Coinflip"
+      lore:
+        - "&7&m-----------------------------------------"
+        - "&fClick in order to cancel entrance"
+        - "&7&m-----------------------------------------"
+      slot: 34
+      action: "cancel"
+
+coinflip-inventory:
+  title: "&eCoinflip Winner"
+  size: 9
+  item:
+    item: "YELLOW_STAINED_GLASS"
+    name: "&eWinner:&7 {player}"
+    lore:
+      - "&f&m------------------------------"
+      - "&eWinner:&7 {player}"
+      - "&eAmount:&7 {amount}"
+      - "&f&m------------------------------"
+    slot: 4
+  overlay: true
+  overlay-item: "GRAY_STAINED_GLASS_PANE"

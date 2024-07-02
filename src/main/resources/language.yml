@@ -1,0 +1,13 @@
+coinflip:
+  usage:
+    - " "
+    - "/coinflip create <amount>"
+    - "/coinflip cancel <amount>"
+    - " "
+  insufficient-balance: "&cYou don't have enough to balance to start coinflip. You need {needed} and you have {balance}"
+  insufficient-balance-join: "&cYou don't have enough to balance to join coinflip. You need {needed} and you have {balance}"
+  on-going: "&cYou have already ongoing coinflip. Please cancel in order to create new."
+  not-on-going: "&cYou don't have any coinflips at the moment."
+  created: "&aSuccessfully created coinflip."
+  cancelled: "&cSuccessfully cancelled coinflip."
+  self: "&cYou can't go against yourself in coinflip."
