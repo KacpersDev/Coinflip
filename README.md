@@ -16,7 +16,7 @@ Create & Cancel anytime.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/PulsirDevelopment/Lunar.git
+   git clone https://github.com/KacpersDev/Coinflip.git
    ```
 2. Make changes
 3. Create a pull request and write a description.
