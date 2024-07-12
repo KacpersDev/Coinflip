@@ -1,7 +1,0 @@
-name: MultiCoinFlip
-version: '1.0-SNAPSHOT'
-main: net.pulsir.multicoinflip.MultiCoinFlip
-api-version: '1.20'
-commands:
-  coinflip:
-    aliases: [coinflips]
