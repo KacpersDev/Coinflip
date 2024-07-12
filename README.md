@@ -1,4 +1,4 @@
-## Lunar
+## Coinflip
 
 Powerful & Multi-Server Coinflip Plugin
 
