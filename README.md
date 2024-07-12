@@ -4,13 +4,13 @@ Powerful & Multi-Server Coinflip Plugin
 
 ### Dependencies
 
-Economy plugin, which support Vault.
-Redis Database.
+- Economy plugin, which support Vault.
+- Redis Database.
 
 ### Features
 
-Synced across servers with Redis.
-Create & Cancel anytime.
+- Synced across servers with Redis.
+- Create & Cancel anytime.
 
 ### Contributing
 
